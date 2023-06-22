@@ -16,10 +16,19 @@ function Biodata(){
 			<p>Phanjoubam Herojit</p>
 			<span>Node.Js Developer</span>
 		</div>
-		
 	);
 }
 
+
+function ShortIntro(){
+	
+	return(
+	<div>
+		<p>Hello! I'm a highly experienced web developer with over 12 years of expertise in creating dynamic and innovative web solutions. My passion lies in crafting robust and scalable applications using a variety of technologies.</p>
+	</div>
+	
+	);
+}
 
 
 export default function Main(){
@@ -28,6 +37,7 @@ export default function Main(){
 		<section style={{ width: '200px', border: '1px solid #efefef', textAlign: 'center', padding: "20px", margin: "40px auto"  }}>
 			<ProfilePicture/>
 			<Biodata />
+			<ShortIntro/>
 		</section>
 		);
 	
