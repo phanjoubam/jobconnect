@@ -19,3 +19,30 @@
 body {
   color: rgb(var(--foreground-rgb)); 
 }
+
+
+h1.pageheading
+{ 
+  margin-bottom: 30px;
+  font-style:italic;
+
+}
+
+h2
+{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.text-purple
+{
+  color: #705cf6;
+}
+
+.bold{
+font-weight: bold;
+}
