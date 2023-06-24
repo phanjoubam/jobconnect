@@ -6,9 +6,7 @@ function ProfileCard(){
 	return (
 	
 	<div style={{ textAlign: 'center' }} >
-    <img src="https://www.upwork.com/profile-portraits/c1ftAd6RAi0iaZWHsbdl66CLSURntWZz6CvAtXCHER7ZHdkYZA0m9Yy8PTQsFeSNv6"
-      alt="Phanjoubam Herojit" style={{ display: "inline"}} />
-	
+     
 		<div  style={{textAlign:'center'}} >
 			<p>Phanjoubam Herojit</p>
 			<span>Node.Js Developer</span>
@@ -24,11 +22,20 @@ function ProfileCard(){
 }
 
 
+//exporting ProfileImage named component
+export function ProfileImage(){
+	
+	return (
+	<img src="https://www.upwork.com/profile-portraits/c1ftAd6RAi0iaZWHsbdl66CLSURntWZz6CvAtXCHER7ZHdkYZA0m9Yy8PTQsFeSNv6"
+      alt="Phanjoubam Herojit" style={{ display: "inline"}} /> );
+}
+
+//defining default export component
 export default function UserProfile(){
 	
 	return (
 	
-	<ProfileCard/>
+		<ProfileCard/>
 	
 	
 	);
